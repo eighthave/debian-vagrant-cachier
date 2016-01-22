@@ -1,0 +1,27 @@
+Source: vagrant-cachier
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake,
+               vagrant (>= 1.7.2)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/vagrant-cachier.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/vagrant-cachier.git
+Homepage: https://github.com/pradels/vagrant-cachier
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: vagrant-cachier
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: share a common package cache among similar VM instances
+ A Vagrant plugin that helps you reduce the amount of coffee you drink
+ while waiting for boxes to be provisioned by sharing a common package
+ cache among similar VM instances. Kinda like vagrant-apt_cache or
+ this magical snippet but targeting multiple package managers and
+ Linux distros.

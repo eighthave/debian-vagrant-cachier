@@ -1,5 +1,5 @@
-vagrant-cachier (1.2.1-1ubuntu1) UNRELEASED; urgency=low
+vagrant-cachier (1.2.1-1) unstable; urgency=low
 
-  * Initial release. (Closes: #)
+  * Initial release. (Closes: #812372)
 
  -- Hans-Christoph Steiner <hans@eds.org>  Fri, 22 Jan 2016 21:09:43 +0100

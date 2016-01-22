@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: vagrant-cacheir
+Upstream-Name: vagrant-cachier
 Source: https://github.com/fgrehm/vagrant-cachier
 
 Files: *

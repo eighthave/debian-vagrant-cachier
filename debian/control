@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9~),
 Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/vagrant-cachier.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/vagrant-cachier.git
-Homepage: https://github.com/pradels/vagrant-cachier
+Homepage: https://github.com/fgrehm/vagrant-cachier
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 

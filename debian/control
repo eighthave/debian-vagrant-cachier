@@ -2,6 +2,7 @@ Source: vagrant-cachier
 Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
 Build-Depends: debhelper (>= 9~),
                gem2deb,
                rake,
